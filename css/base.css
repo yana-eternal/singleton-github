@@ -1,7 +1,6 @@
 /* переменные */
 :root {
     --base-color-green:#6AC75A;
-    --display-1: 72px
 }
 
 body {
@@ -13,14 +12,11 @@ body {
 
 .container {
     width: 1140px;
-    /* padding-left: 15px;
-    padding-right: 15px; */
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
-/* типография */
 
+/* типография */
 .paragraph-03 {
     letter-spacing: -0.3px;
     font-size: 14px;

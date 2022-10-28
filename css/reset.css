@@ -1,3 +1,6 @@
+.none {
+    display: none;
+}
 *,
 *::before,
 *::after {
