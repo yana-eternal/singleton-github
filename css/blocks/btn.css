@@ -1,7 +1,7 @@
 /* шапка */
 .btn, a.btn {
     display: inline-block;
-    background-color:#6AC75A;
+    background-color: var(--base-color-green);
     transition: opacity 0.2s ease;
 }
 .btn-cart {
@@ -34,6 +34,7 @@
     font-size: 16px;
     line-height: 26px;
     border: 1px solid #E1E4EB;
+    margin-right: 15px;
 }
 .btn-big {
     font-size: 16px;
@@ -41,7 +42,7 @@
     color: #fff;
     text-align: center;
     border-radius: 5px;
-    background-color:#6AC75A;
+    background-color: var(--base-color-green);
     padding: 13px 38px;
     min-height: 50px;
     font-weight: 500;
