@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Singleton</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <!-- стили -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/blocks/header.css" />
+    <link rel="stylesheet" href="./css/blocks/page1.css" />
+    <link rel="stylesheet" href="./css/blocks/btn.css" />
+    
+     <!-- шрифты -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+    </li>
+  </head>
+
+  <body>
+    <!-- шапка -->
+    <header class="header">
+      <div class="header-row">
+        <div class="header-logo">
+          <a href="#">
+              <img src="img/logo.svg" alt="логотип">
+          </a>
+        </div>
+
+        <div class="header-nav">
+          <nav>
+            <ul>
+              <li class="nav"><a href="#">Shop</a></li>
+              <li class="nav"><a href="#">Products</a></li>
+              <li class="nav"><a href="#">Services</a></li>
+              <li class="nav"><a href="#">Contacts</a></li>
+            </ul>
+          </nav>
+        </div> 
+
+        <div class="header-cart">
+          <a href="#" class="cart">Cart</a>
+          <a href="#" class="btn btn-cart"><span class="cart-count">2</span></a>
+        </div>
+      </div>
+    </header>
+
+    <!-- 1 страница медиа -->
+    <main>
+      <section class="page-1">
+        <div class="container">
+          <div class="page-1-row">
+
+            <!-- кнопки-->
+            <div class="radio-button">
+              <input type="radio" name="radio" value="1" id="4" />
+              <input type="radio" name="radio" value="2" id="3" checked />
+              <input type="radio" name="radio" value="3" id="2" />
+              <input type="radio" name="radio" value="4" id="1" />
+            </div>
+
+            <!-- телефон -->
+            <div class="phone">
+              <img src="img/phone.svg" alt="смартфон">
+            </div>
+
+            <!-- контент -->
+            <div class="content">
+              <h1 class="page1-heading">Studio-like photos. Without the studio.</h1>
+              <p class="article">Never worry about storing, finding, or <br>sharing your memories thanks to unlimited <br> storage in high quality on Google Photos.</p>
+            <!-- формы покупки -->
+              <div class="form">
+                <form action="#">
+                  <div class="amount-button">
+                    <input class="amount" type="number" min="1" max="50" step="1" name="amount" value="1" />
+                  </div> 
+                  <div class="btn btn-big">
+                    <input class="submit" type="submit" value="Buy for $999" />
+                  </div>
+                </form>
+              </div>
+                  <p class="paragraph-03">The product image is taken from store.google.com</p>
+
+              <!-- content closed -->
+              </div>
+          <!--page-1-row closed -->
+          </div>
+      <!-- container closed -->
+      </div>
+      <!-- чат -->
+      <div class="chat-button btn">
+       
+      </div>
+      </section> 
+
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

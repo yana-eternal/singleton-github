@@ -1,0 +1,37 @@
+/* база */
+.page-1 {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    min-height: 720px;
+}
+.page-1-row {
+    display: flex;
+}
+/* контейнер с текстом */
+.content {
+    max-width: 560px;
+
+}
+.radio-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 87px;
+}
+.phone {
+    margin-right: 125px;
+}
+
+
+
+/* текст */
+/* все что ниже заголовка будет отступ 25px */
+.page1-heading + * {
+    margin-top: 25px;
+}
+.article + * {
+    margin-top: 50px;
+}
+.form + * {
+    margin-top: 111px;
+}
