@@ -7,10 +7,14 @@
 .intro-row {
     display: flex;
 }
+/* кнопки и телефон */
+.container-slider {
+    display: flex;
+    margin-right: 125px;
+}
 /* контейнер с текстом */
 .content {
     max-width: 560px;
-
 }
 .radio-button {
     display: flex;
@@ -18,11 +22,11 @@
     justify-content: center;
     margin-right: 87px;
 }
-.phone {
-    margin-right: 125px;
+/* размер картинки в зависимости от ширины экрана */
+.phone img {
+    width: 30vw;
+    max-width: 350px;
 }
-
-
 
 /* текст */
 /* все что ниже заголовка будет отступ 25px */
@@ -34,4 +38,55 @@
 }
 .form + * {
     margin-top: 111px;
+}
+
+
+/* адаптив */
+
+@media (max-width:1200px) {
+    .container-slider{
+        margin-right: 50px;
+    }
+    .radio-button {
+        margin-right: 20px;
+    }
+  
+@media (max-width:900px) {
+    .intro-row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .phone {
+        height: 550px;
+        overflow: hidden;
+    }
+    .phone img {
+        width: 50vw;
+    }
+    .container-slider {
+        margin-bottom: 50px;
+    }
+    /* шрифты */
+    .intro-heading {
+        font-size: 60px;
+    }
+    .article  {
+        font-size: 22px;
+    }
+}
+@media (max-width:560px) {
+    .phone img {
+        width: 50vw;
+    }
+    .phone {
+        height: 75vw;
+        overflow: hidden;
+    } 
+    .intro-heading {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .article  {
+        font-size: 16px;
+    }
 }

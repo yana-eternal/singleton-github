@@ -11,8 +11,10 @@ body {
 }
 
 .container {
-    width: 1140px;
+    background-color: #6AC75A;
+    max-width: 1140px;
     margin: 0 auto;
+    width: 80%;
 }
 
 
